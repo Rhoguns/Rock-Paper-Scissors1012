@@ -1,0 +1,50 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <button onclick="window.location.href='start.html'">Restart</button>
+    <div class= "rules">
+    <button onclick="problem_1()"> RULES </button>
+</div>
+    <title>Rock Paper scissors game</title>
+    <link rel="stylesheet" type ="text/css" href="pvp.css"/>
+    <script src="pvc.js" defer></script>
+   
+</head>
+<body>
+    <h1>
+        Rock paper scissors game 
+    </h1>
+
+<div class= "options">
+    <button class="selection" data-selection="rock">rock</button>
+    <button class="selection" data-selection="paper">paper</button>
+    <button class="selection" data-selection="scissors">Scissors</button>
+</div>
+    <br>
+    <br>
+    <br>
+   <div class= "display">
+        <div class= "p1"> 
+            <button onclick="myFunction1()">Player1</button>
+
+            <p id="demo"></p>
+
+            <span class="result-score" data-your-score>0</span>
+    </div>
+    
+    <div class= "p2"> CPU
+      <br>
+      <span class="result-score" data-computer-score>0</span>
+    </div>
+
+
+
+
+      <div class="scoreboard">   <div data-final-column> </div>
+  
+    </div>
+
+       
+
+</body>
+</html>
