@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+  font-size: 100px;
+}
+.options {
+  display: flex;
+  justify-content: center;
+}
+.options button {
+  font-size: 50px;
+  border-radius: 20px;
+}
+
+.rules button {
+  font-size: large;
+}
+.rules {
+  display: flex;
+  justify-content: left;
+}
+
+.p1 {
+  font-size: 25px;
+  float: left;
+  margin-left: 5cm;
+  text-align: center;
+}
+
+.p2 {
+  font-size: 25px;
+  float: right;
+  margin-right: 5cm;
+  text-align: center;
+  color: black;
+}
+.scoreboard {
+  margin: 5px;
+  justify-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-auto-flow: row dense;
+}
+
+.display {
+  margin-top: 20px;
+}
